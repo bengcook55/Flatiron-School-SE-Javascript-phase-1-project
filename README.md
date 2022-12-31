@@ -1,3 +1,8 @@
+file:///Users/bencook/Development/code/phase-1-javascript-project-mode/index.html
+
+
+
+
 # Phase 1 Project Guidelines
 
 ## Learning Goals
