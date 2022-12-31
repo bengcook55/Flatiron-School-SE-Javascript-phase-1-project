@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid white; */
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to right, rgb(0, 39, 0), rgb(0, 0, 50));
+    
+}
+
+.header{
+    margin: 5% auto;
+    width: 450px;
+}
+
+
+#search-form{
+    margin: 50px 5px 5px 5px;
+    display: flex;
+}
+
+#city, #states{
+    margin-right: 10px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 30px;
+}
+
+#city{
+    width: 500px;
+    height: 40px;
+    padding-left: 15px;
+}
+
+#states{
+    width: 100px;
+    padding-left: 15px;
+}
+
+#search-btn{
+    padding: 0px 25px;
+    background-color: #00510c;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+    #search-btn:hover{
+        background-color: #065f9a;
+        cursor: pointer;
+        transition: 250ms;
+    }
+
+
+
+h1, h2, h3, h4, p, td {
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    h3{
+        font-weight: 400;
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
+
+    h4{
+        font-weight: lighter;
+        font-size: 1.5rem;
+        opacity: 30%;
+    }
+
+    .data-div p{
+        margin: 40px;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    span.data{
+        margin-left: 15px;
+        font-family: monospace;
+        font-size: 1.25rem;
+        text-align: right;
+        color: #a89a01;
+    }
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 75%;
+    justify-content: center;
+}
+
+#card{
+    background-color: #2a2a2ac0;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin: 25px;
+    padding-bottom: 20px;
+}
+
+.close-btn{
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon{
+    padding: 10px;
+    width: 50px;
+}
+
+    .icon:hover{
+        background-color: #444753;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 250ms;
+    }
+
+.card-header{
+    padding: 10px 40px;
+}
+
+footer{
+    margin: 50px;
+}
+
+footer #signature a{
+    color: white;
+}
+
+footer #signature{
+    padding-top: 20px;
+    text-align: center;
+    opacity: 50%;
+    text-decoration: inherit;
+}
